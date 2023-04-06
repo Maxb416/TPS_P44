@@ -74,7 +74,7 @@ Public Class frmManagement
     End Sub
 
 
-    Private Sub lvPrograms_SelectedIndexChanged(sender As Object, e As EventArgs) Handles lvStudentsPerPrograms.SelectedIndexChanged
+    Private Sub lvPrograms_SelectedIndexChanged(sender As Object, e As EventArgs) Handles lvPrograms.SelectedIndexChanged
         If lvPrograms.SelectedItems.Count > 0 Then
             proNum = lvPrograms.SelectedItems(0).Tag
             proIndex = lvPrograms.SelectedIndices(0)
