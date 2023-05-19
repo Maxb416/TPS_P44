@@ -1,0 +1,31 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="My" GeneratedClassName="MySettings" UseMySettingsClassName="true">
+  <Profiles />
+  <Settings>
+    <Setting Name="programPattern" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">^[a-zA-Z]+(([\'\- ][a-zA-ZÀÂÉÊÈËÌÏÎÔÙÛÇÆŒàâéêèëìïîôùûçæœ ])?[a-zA-ZÀÂÉÊÈËÌÏÎÔÙÛÇÆŒàâéêèëìïîôùûçæœ]*)*$</Value>
+    </Setting>
+    <Setting Name="unitsPattern" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">^[1-9]\d?(\.+((33)|(66)|(0)|(00)))?$</Value>
+    </Setting>
+    <Setting Name="hoursPattern" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">^[1-9]\d{1,3}$</Value>
+    </Setting>
+    <Setting Name="namePattern" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">^[a-zA-Z]+(([\'\,\.\- ][a-zA-ZÀÂÉÊÈËÌÏÎÔÙÛÇÆŒàâéêèëìïîôùûçæœ ])?[a-zA-ZÀÂÉÊÈËÌÏÎÔÙÛÇÆŒàâéêèëìïîôùûçæœ]*)*$</Value>
+    </Setting>
+    <Setting Name="addressPattern" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">^(\d{1,6}) ([a-zA-ZÀÂÉÊÈËÌÏÎÔÙÛÇÆŒàâéêèëìïîôùûçæœ]+(([\'\,\.\-\` ][a-zA-ZÀÂÉÊÈËÌÏÎÔÙÛÇÆŒàâéêèëìïîôùûçæœ ])*)){2,}\s?$</Value>
+    </Setting>
+    <Setting Name="cityPattern" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">^[a-zA-Z]+(([\'\,\.\- ][a-zA-ZÀÂÉÊÈËÌÏÎÔÙÛÇÆŒàâéêèëìïîôùûçæœ ])?[a-zA-ZÀÂÉÊÈËÌÏÎÔÙÛÇÆŒàâéêèëìïîôùûçæœ]*)*$</Value>
+    </Setting>
+    <Setting Name="ConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;ConnectionString&gt;Data Source=.\SQLExpress;Initial Catalog=tp_p44;Integrated Security=True;Trust Server Certificate=true;MultipleActiveResultSets=true&lt;/ConnectionString&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=.\SQLExpress;Initial Catalog=tp_p44;Integrated Security=True;Trust Server Certificate=true;MultipleActiveResultSets=true</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
